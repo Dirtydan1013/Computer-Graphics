@@ -1,0 +1,23 @@
+//  python -m http.server 8000
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>three.js Bootstrap with Import Map</title>
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.155.0/build/three.module.js",
+      "three/examples/jsm/controls/OrbitControls.js": "https://cdn.jsdelivr.net/npm/three@0.155.0/examples/jsm/controls/OrbitControls.js",
+      "dat.gui": "https://cdn.jsdelivr.net/npm/dat.gui@0.7.9/build/dat.gui.module.js"
+    }
+  }
+  </script>
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
