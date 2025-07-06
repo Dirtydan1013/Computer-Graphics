@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic "CMakeFiles/rast.dir/hw-rast.cpp.o" "CMakeFiles/rast.dir/swgl-rast.cpp.o" -o rast  -lGL -lGLU -lGLEW -lGL -lX11 -lGLU -lglfw 
